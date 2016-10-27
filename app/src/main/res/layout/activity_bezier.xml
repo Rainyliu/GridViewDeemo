@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rainy.gridviewdeemo.BezierActivity">
+
+    <com.example.rainy.gridviewdeemo.view.Bezier2
+        android:id="@+id/bezier2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.example.rainy.gridviewdeemo.view.Bezier2>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:id="@+id/rg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:checked="false"
+            android:text="控制点1"
+            android:id="@+id/rb1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:checked="false"
+            android:text="控制点2"
+            android:id="@+id/rb2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+</RelativeLayout>
