@@ -1,1 +1,1 @@
-include ':app', ':twinklinglibrary', 'twinkllibrary'
+include ':app', ':twinklinglibrary', 'twinkllibrary', ':library'
