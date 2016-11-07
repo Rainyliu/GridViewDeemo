@@ -19,6 +19,7 @@ public class PhotoViewActivity extends AppCompatActivity {
 
     private Toast mCurrentToast;
 
+
     private Matrix mCurrentDisplayMatrix = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
