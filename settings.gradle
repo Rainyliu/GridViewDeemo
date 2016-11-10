@@ -1,1 +1,1 @@
-include ':app', ':twinklinglibrary', 'twinkllibrary', ':library'
+include ':app', ':twinklinglibrary', 'twinkllibrary', ':library', 'library-slideback'

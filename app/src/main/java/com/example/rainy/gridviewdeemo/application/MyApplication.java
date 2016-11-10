@@ -2,6 +2,7 @@ package com.example.rainy.gridviewdeemo.application;
 
 import android.app.Application;
 
+import com.oubowu.slideback.ActivityHelper;
 import com.yolanda.nohttp.NoHttp;
 
 
@@ -12,9 +13,20 @@ import com.yolanda.nohttp.NoHttp;
  */
 
 public class MyApplication extends Application {
+    private ActivityHelper mActivityHelper;
+    private static MyApplication sMyApplication;
     @Override
     public void onCreate() {
-//        super.onCreate();
+        super.onCreate();
         NoHttp.initialize(this);
+
+        mActivityHelper = new ActivityHelper();
+        registerActivityLifecycleCallbacks(mActivityHelper);
+
+        sMyApplication = this;
+    }
+
+    public static ActivityHelper getActivityHelpler(){
+        return sMyApplication.mActivityHelper;
     }
 }

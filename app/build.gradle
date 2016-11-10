@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.rainy.gridviewdeemo"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -45,8 +45,8 @@ dependencies {
     compile 'com.yolanda.nohttp:nohttp:1.1.0'
     //如果要使用OkHttp作为网络层，请再依赖：
     compile 'com.yanzhenjie.nohttp:okhttp:1.1.0'
-    
     //photoView 图片缩放的库
     //    compile 'com.github.chrisbanes:PhotoView:{latest.release.here}'
     compile project(':library')
+    compile project(':library-slideback')
 }

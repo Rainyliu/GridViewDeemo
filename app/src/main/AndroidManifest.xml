@@ -20,15 +20,16 @@
         <activity android:name=".AnimatorActivity" />
         <activity android:name=".DecodeImageActivity" />
         <activity android:name=".TwinklingRefreshLayoutActivity" />
-        <activity android:name=".ButterKnifeActivity"></activity>
-        <activity android:name=".RetrofitDemoActivity">
-        </activity>
-        <activity android:name=".PhotoViewActivity">
+        <activity android:name=".ButterKnifeActivity" />
+        <activity android:name=".RetrofitDemoActivity" />
+        <activity android:name=".PhotoViewActivity"></activity>
+        <activity android:name=".SlideBackActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SecondActivity"/>
     </application>
 
 </manifest>

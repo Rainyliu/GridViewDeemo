@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/GridViewDeemo.iml" filepath="$PROJECT_DIR$/GridViewDeemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-slideback/library-slideback.iml" filepath="$PROJECT_DIR$/library-slideback/library-slideback.iml" />
       <module fileurl="file://$PROJECT_DIR$/twinklinglibrary/twinklinglibrary.iml" filepath="$PROJECT_DIR$/twinklinglibrary/twinklinglibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/twinkllibrary/twinkllibrary.iml" filepath="$PROJECT_DIR$/twinkllibrary/twinkllibrary.iml" />
     </modules>
